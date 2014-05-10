@@ -1,0 +1,31 @@
+{
+  "name": "transformer.xml-string-to-jsonml",
+  "version": "0.0.1",
+  "description": "transformer conversion: xml-string to jsonml",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "dat-transformer": "~0.1.5",
+    "transformer.jsonml": "0.0.1",
+    "transformer.xml-string": "0.0.1",
+    "jsxml": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.xml-string-to-jsonml.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.xml-string-to-jsonml/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.xml-string-to-jsonml"
+}
