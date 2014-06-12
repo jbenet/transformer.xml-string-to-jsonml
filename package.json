@@ -1,6 +1,6 @@
 {
   "name": "transformer.xml-string-to-jsonml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: xml-string to jsonml",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,10 +12,11 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "dat-transformer": "~0.1.5",
+    "jsxml": "0.0.2",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.jsonml": "0.0.1",
-    "transformer.xml-string": "0.0.1",
-    "jsxml": "0.0.2"
+    "transformer.xml-string": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
